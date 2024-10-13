@@ -9,7 +9,7 @@ require('dotenv').config()
 //middlewares
 app.use(express.json())
 app.use(cors({
-    origin: '',
+    origin: "",
     method: ["POST", "GET", "DELETE"],
     credentials: true
 }))
